@@ -1,6 +1,5 @@
 import streamlit as st
-# ML Pkg
-# from sklearn.externals import joblib
+
 import joblib
 import time
 import pandas as pd
