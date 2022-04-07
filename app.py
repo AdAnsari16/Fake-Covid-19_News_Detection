@@ -69,7 +69,7 @@ def main():
         with interactive:
             news_data = pd.read_csv('news.csv')
             fig = go.Figure(data=go.Table(columnwidth=[5, 1],   header=dict(values=list(news_data[['News', 'Outcome']].columns), fill_color='OliveDrab', align='center'), cells=dict(
-                values=[news_data.News, news_data.Outcome], fill_color='Black', align='center')))
+                values=[news_data.News, news_data.Outcome], fill_color='White', align='center')))
 
         fig.update_layout(margin=dict(l=5, r=5, b=10, t=10))
 
