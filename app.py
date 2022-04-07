@@ -78,7 +78,6 @@ def main():
     if st.button("About"):
 
         st.text("Rishika Ahuja")
-	st.text("John Emmanuel")
         st.text("Ann Elizabeth Zachariah")
         st.text("Adil Ansari ")
 	
